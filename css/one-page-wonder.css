@@ -2,13 +2,43 @@ body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(http://m.c.lnkd.licdn.com/media/p/8/000/25f/3a4/3623d25.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background: #ffffff;
+	background: rgba(240, 240, 240, 0.8);
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
 .header-image {
-	background: url(http://m.c.lnkd.licdn.com/media/p/8/000/25f/3a4/3623d25.jpg) no-repeat;/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
-	background-position: left;
-	height: auto;
-	display: block;
-	width: 100%;
-	text-align: center;
+	/*background: url(http://m.c.lnkd.licdn.com/media/p/8/000/25f/3a4/3623d25.jpg) no-repeat center center fixed; Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
 }
 
 .headline {
@@ -107,3 +137,4 @@ footer {
 .featurette-image.pull-right {margin-left: 0; margin-bottom: 10px;}
 
 }
+
