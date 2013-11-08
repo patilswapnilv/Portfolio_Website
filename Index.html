@@ -156,18 +156,15 @@
   <p class="lead"></p>
 
   <!-- Projects -->
-  <div class="container">
-    <div class="row">
-      <h3>Projects</h3>
-    </div>
+  <div class="container" id="projectsTable">
 
     <div class="row">
-
-      <h4 class="col-md-2">Year 2</h4>
-      <div class="col-md-3">Java Payroll System</div>
-      <a href="http://github.com/smur89/Payroll"><div class="col-md-3">GitHub</div></a>
-      <a href="Year2Project/usermanual.html"><div class="col-md-3">User Manual</div></a>
-
+      <h4>Year 2</h4>
+      <div class="row">
+        <div class="col-md-3">Java Payroll System</div>
+        <a href="http://github.com/smur89/Payroll"><div class="col-md-3">GitHub</div></a>
+        <a href="Year2Project/usermanual.html"><div class="col-md-3">User Manual</div></a>
+      </div>
       <div class="row">
         <div class="col-md-3">Land Lovers Website</div>
         <a href="http://github.com/smur89/Land-Lovers-Website"><div class="col-md-3">GitHub</div></a>
@@ -175,42 +172,25 @@
       </div> 
     </div><br/>
 
+    <div class="divider"></div>
+
     <div class="row">
-      <h4 class="col-md-2">Year 3</h4>
-      <div class="col-md-3">eUp</div>
-      <a href="http://github.com/smur89/eUp"><div class="col-md-3">GitHub</div></a>
-      <a href="Year2Project/usermanual.html"><div class="col-md-3"> </div></a>
+      <h4>Year 3</h4>
+      <div class="row">
+        <div class="col-md-3">eUp</div>
+        <a href="http://github.com/smur89/eUp"><div class="col-md-2">GitHub</div></a>
+        <a href="Year2Project/usermanual.html"><div class="col-md-2"> </div></a>
+      </div>
     </div><br/>
 
     <div class="row">
-      <h4 class="col-md-2">Year 4</h4>
-      <div class="col-md-3">IBM CD Adoption Dashboard</div>
-      <a href="http://github.com/smur89/IBM-CD-Dashboard"><div class="col-md-3">GitHub</div></a>
-      <a href="Year2Project/usermanual.html"><div class="col-md-3"> </div></a>
+      <h4>Year 4</h4>
+      <div class="row">
+        <div class="col-md-3">IBM CD Adoption Dashboard</div>
+        <a href="http://github.com/smur89/IBM-CD-Dashboard"><div class="col-md-2">GitHub</div></a>
+        <a href="Year2Project/usermanual.html"><div class="col-md-2"> </div></a>
+      </div>
     </div><br/>
-
-
-</div><!-- /Projects List Group -->
-
-     <!-- Projects -->
-  <!-- <div class="list-group">
-    <a href="#" class="list-group-item active">
-    <h4 class="list-group-item-heading">Projects</h4></a>
-
-    <a href="http://github.com/smur89/Payroll" class="list-group-item">
-    <h4 class="list-group-item-heading">Year 2</h4>
-    <p class="list-group-item-text">Java Payroll System</p>
-   </a>
-
-    <a href="http://github.com/smur89/eUp" class="list-group-item">
-    <h4 class="list-group-item-heading">Year 3</h4>
-    <p class="list-group-item-text">eUp</p></a>
-
-    <a href="http://github.com/smur89/IBM-CD-Dashboard" class="list-group-item">
-    <h4 class="list-group-item-heading">Year 4</h4>
-    <p class="list-group-item-text">IBM CD Adoption Dashboard</p></a>
-  </div>  --><!-- /Projects List Group -->
-</div>
 
 <hr class="featurette-divider">
 
@@ -262,49 +242,42 @@
           <abbr title="Telephone">Tel:</abbr>+353 (087) 280-6262
         </address>
 
-        <address>
-          <strong>Full Name</strong><br>
-          <a href="mailto:#">smur89@gmail.com</a>
-        </address>
-
-
-        <!-- COMMENTED OUT CONTACT FORM -->
         <!-- Contacts -->
-        <!-- <div class="modal-dialogue" id="contacts"> -->
-        <!-- <div class="row">         -->
-        <!-- Form itself -->
-        <!-- <form name="sentMessage" class="well" id="contactForm"  novalidate> -->
-        <!-- <legend>Contact me  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button></legend> -->
-        <!-- <div class="control-group"> -->
-        <!-- <div class="controls"> -->
-        <!-- <input type="text" class="form-control"  -->
-        <!-- placeholder="Full Name" id="name" required -->
-        <!-- data-validation-required-message="Please enter your name" /> -->
-        <!-- <p class="help-block"></p> -->
-        <!-- </div> -->
-        <!-- </div>          -->
-        <!-- <div class="control-group"> -->
-        <!-- <div class="controls"> -->
-        <!-- <input type="email" class="form-control" placeholder="Email"  -->
-        <!-- id="email" required -->
-        <!-- data-validation-required-message="Please enter your email" /> -->
-        <!-- </div> -->
-        <!-- </div>          -->
+        <div class="modal-dialogue" id="contacts">
+          <div class="row">        
+            <!-- Form itself -->
+            <form name="sentMessage" class="well" id="contactForm"  novalidate>
+             <!-- <legend>Contact me  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button></legend> -->
+              <div class="control-group">
+                <div class="controls">
+                  <input type="text" class="form-control" 
+                  placeholder="Full Name" id="name" required 
+                  data-validation-required-message="Please enter your name" /> 
+                  <p class="help-block"></p>
+                </div>
+              </div>         
+              <div class="control-group">
+                <div class="controls">
+                  <input type="email" class="form-control" placeholder="Email" 
+                  id="email" required
+                  data-validation-required-message="Please enter your email" /> 
+                </div>
+              </div>         
 
-        <!-- <div class="control-group"> -->
-        <!-- <div class="controls"> -->
-        <!-- <textarea rows="10" cols="100" class="form-control"  -->
-        <!-- placeholder="Message" id="message" required -->
-        <!-- data-validation-required-message="Please enter your message" minlength="5"  -->
-        <!-- data-validation-minlength-message="Min 5 characters"  -->
-        <!-- maxlength="999" style="resize:none"></textarea> -->
-        <!-- </div> -->
-        <!-- </div>                   -->
-        <!-- <div id="success"> </div> For success/fail messages -->
-        <!-- <button type="submit" class="btn btn-primary pull-right">Send</button><br /> -->
-        <!-- </form> -->
-        <!-- </div> -->
-        <!-- </div> -->
+              <div class="control-group">
+                <div class="controls">
+                  <textarea rows="10" cols="100" class="form-control" 
+                  placeholder="Message" id="message" required
+                  data-validation-required-message="Please enter your message" minlength="5" 
+                  data-validation-minlength-message="Min 5 characters"  
+                  maxlength="999" style="resize:none"></textarea>
+                </div> 
+              </div>                   
+              <div id="success"> </div> <!-- For success/fail messages  -->
+              <button type="submit" class="btn btn-primary pull-right">Send</button><br /> 
+            </form> 
+          </div> 
+        </div> 
 
       </div> <!-- modal body -->
     </div><!-- /.modal-content -->
